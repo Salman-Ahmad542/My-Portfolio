@@ -7,7 +7,7 @@ var PHOTO="data:image/webp;base64,UklGRr6YAABXRUJQVlA4WAoAAAAQAAAAuwIAfwMAQUxQSA
     el.addEventListener('pointermove',function(e){var r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;el.style.transform='perspective(900px) rotateX('+(-y*max)+'deg) rotateY('+(x*max)+'deg)';});
     el.addEventListener('pointerleave',function(){el.style.transform='';});
   }
-  tilt(document.getElementById('photo'),14);
+  tilt(document.getElementById('photo'),12);
   document.querySelectorAll('.proj').forEach(function(p){tilt(p,6)});
 
   /* pipeline */
