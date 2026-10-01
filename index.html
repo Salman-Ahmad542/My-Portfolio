@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Salman Ahmad — DevOps Engineer</title>
+<link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<nav>
+  <b>salman.</b>
+  <div><a href="#about">About</a><a href="#tech">Technologies</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+  <div class="glow"></div>
+  <div id="scene" role="img" aria-label="Portrait of Salman Ahmad rotating in 3D"></div>
+  <p class="hi">Hi, I'm <b>Salman Ahmad</b></p>
+  <h1 class="h t a" id="ta">DevOps<br>Engineer</h1>
+  <div class="h t b" id="tb" aria-hidden="true">Cloud &amp;<br>CI/CD</div>
+  <p class="sub">I build pipelines with Jenkins, package apps with Docker, run them on Kubernetes, and host them on AWS.</p>
+  <div class="scroll">Scroll to explore</div>
+</header>
+
+<div class="wrap pipe"><div class="card" aria-label="Animated example pipeline">
+  <div class="ph"><span>Pipeline: flask-app</span><span id="status">Starting…</span></div>
+  <div class="stages">
+    <div class="st"><div class="node"><i></i>Checkout</div><div class="bar"></div></div>
+    <div class="st"><div class="node"><i></i>Build image</div><div class="bar"></div></div>
+    <div class="st"><div class="node"><i></i>Push</div><div class="bar"></div></div>
+    <div class="st"><div class="node"><i></i>Deploy</div></div>
+  </div>
+  <div class="log" id="log">Waiting for trigger</div>
+</div></div>
+
+<section id="about"><div class="wrap about">
+  <div class="pw"><div class="photo" id="photo"><img id="pimg" alt="Portrait of Salman Ahmad"><div class="badge"><i></i>Open to entry-level roles</div></div></div>
+  <div>
+    <h2>Hello, I'm Salman Ahmad</h2>
+    <p>I'm a Computer Science graduate (BSCS, Agricultural University of Peshawar, 2022–2026) who learns by building. My projects take an app from container to automated deploy to cloud hosting.</p>
+    <p>I'm comfortable with Linux administration, networking basics, and Terraform, and I'm looking for an entry-level DevOps or Cloud Engineering role.</p>
+    <div class="pill">
+      <div><b>CI/CD</b><span>Jenkins, GitHub Actions</span></div>
+      <div><b>Containers</b><span>Docker, Podman, Kubernetes</span></div>
+      <div><b>Cloud</b><span>AWS Solutions Architect – Associate</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="tech"><div class="wrap">
+  <h2>Technologies I work with</h2>
+  <div class="chips">
+    <span class="hl">AWS</span><span>EC2</span><span>S3</span><span>RDS</span><span>VPC</span><span>IAM</span><span>Route 53</span><span>CloudWatch</span><span>Auto Scaling</span>
+    <span class="hl">Docker</span><span>Podman</span><span>Docker Compose</span><span class="hl">Kubernetes</span><span>Helm</span>
+    <span class="hl">Jenkins</span><span>GitHub Actions</span><span class="hl">Terraform</span><span>Ansible</span>
+    <span>Linux (RedHat, CentOS, Ubuntu)</span><span>Nginx</span><span>Git &amp; GitHub</span>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2>Featured projects</h2>
+  <div class="grid">
+    <article class="card proj">
+      <h3>Flask app with Jenkins CI/CD</h3>
+      <div class="tags"><span>Docker</span><span>Jenkins</span><span>Git</span></div>
+      <ul>
+        <li>Containerized a Flask app with a custom Dockerfile for the same build in dev and staging.</li>
+        <li>Built a Jenkins pipeline for checkout, build, image creation and deploy, cutting several manual commands to one trigger.</li>
+        <li>Used a branching and pull request workflow and fixed Docker permission, Git checkout and pipeline errors.</li>
+      </ul>
+    </article>
+    <article class="card proj">
+      <h3>Django notes app with Compose and Nginx</h3>
+      <div class="tags"><span>Docker Compose</span><span>Nginx</span><span>Django</span></div>
+      <ul>
+        <li>Deployed a multi-container app: Django, a database and an Nginx reverse proxy.</li>
+        <li>Set up Nginx for proxying and static files, configured container networking, and debugged connections with the Docker CLI.</li>
+      </ul>
+    </article>
+    <article class="card proj">
+      <h3>Kubernetes application deployment</h3>
+      <div class="tags"><span>Kubernetes</span><span>Helm</span></div>
+      <ul>
+        <li>Deployed containerized apps with Pods, Deployments and Services.</li>
+        <li>Practiced scaling and exposing services.</li>
+      </ul>
+    </article>
+  </div>
+  <h2 style="margin-top:64px">Certifications and training</h2>
+  <div class="chips">
+    <span class="hl">AWS Certified Solutions Architect – Associate</span><span>Git &amp; GitHub</span><span>Docker &amp; Podman</span><span>Kubernetes &amp; Helm</span><span>Jenkins</span><span>Ansible</span><span>Terraform</span>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap ct">
+  <div>
+    <h2>Let's build something reliable</h2>
+    <p>I'm looking for an entry-level DevOps or Cloud Engineering role. Email me or find me on LinkedIn and GitHub.</p>
+    <div class="cta">
+      <a class="btn m" href="mailto:salmanahmadedu@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/salman-ahmad-5b58462a1" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/Salman-Ahmad542" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+  <div class="card"><pre><span class="k">const</span> <span class="v">salman</span> = {
+  role: <span class="s">"DevOps Engineer"</span>,
+  email: <a href="mailto:salmanahmadedu@gmail.com">"salmanahmadedu@gmail.com"</a>,
+  phone: <a href="tel:03352220283">"0335-2220283"</a>,
+  location: <span class="s">"Islamabad, Pakistan"</span>,
+  languages: [<span class="s">"English"</span>, <span class="s">"Urdu"</span>],
+  status: <span class="s">"open to entry-level roles"</span>
+};</pre></div>
+</div></section>
+
+<footer><div class="wrap">© 2026 Salman Ahmad</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
